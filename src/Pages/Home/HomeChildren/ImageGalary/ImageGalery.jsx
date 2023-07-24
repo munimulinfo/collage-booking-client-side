@@ -11,48 +11,48 @@ const ImageGalery = () => {
     return (
         <div>
             <h1 className='text-center mb-20 font-sans font-bold text-3xl'>Graduates Group Pictures</h1>
-            <div className='grid lg:grid-cols-3 justify-center items-center px-2 gap-5 lg:gap-10 lg:px-20 mb-24 '>
-                <div className="card bg-red-100 shadow-xl">
+            <div className='grid lg:grid-cols-3 justify-center items-center px-2 gap-5 lg:gap-10 lg:px-10 mb-24 '>
+                <div className="card bg-purple-50 shadow-xl">
                     <figure className="px-5 py-5">
                         <img src={img1} alt="image" className="rounded-xl w-full h-56" />
                     </figure>
                 </div>
-                <div className="card bg-red-100 shadow-xl">
+                <div className="card bg-purple-50 shadow-xl">
                     <figure className="px-5 py-5">
                         <img src={img2} alt="image" className="rounded-xl w-full h-56" />
                     </figure>
                 </div>
-                <div className="card bg-red-100 shadow-xl">
+                <div className="card bg-purple-50 shadow-xl">
                     <figure className="px-5 py-5">
                         <img src={img3} alt="image" className="rounded-xl w-full h-56" />
                     </figure>
                 </div>
-                <div className="card bg-red-100 shadow-xl">
+                <div className="card bg-purple-50 shadow-xl">
                     <figure className="px-5 py-5">
                         <img src={img4} alt="image" className="rounded-xl w-full h-56" />
                     </figure>
                 </div>
-                <div className="card bg-red-100 shadow-xl">
+                <div className="card bg-purple-50 shadow-xl">
                     <figure className="px-5 py-5">
                         <img src={img5} alt="image" className="rounded-xl w-full h-56" />
                     </figure>
                 </div>
-                <div className="card bg-red-100 shadow-xl">
+                <div className="card bg-purple-50 shadow-xl">
                     <figure className="px-5 py-5">
                         <img src={img6} alt="image" className="rounded-xl w-full h-56" />
                     </figure>
                 </div>
-                <div className="card bg-red-100 shadow-xl">
+                <div className="card bg-purple-50 shadow-xl">
                     <figure className="px-5 py-5">
                         <img src={img7} alt="image" className="rounded-xl w-full h-56" />
                     </figure>
                 </div>
-                <div className="card bg-red-100 shadow-xl">
+                <div className="card bg-purple-50 shadow-xl">
                     <figure className="px-5 py-5">
                         <img src={img8} alt="image" className="rounded-xl w-full h-56" />
                     </figure>
                 </div>
-                <div className="card bg-red-100 shadow-xl">
+                <div className="card bg-purple-50 shadow-xl">
                     <figure className="px-5 py-5">
                         <img src={img9} alt="image" className="rounded-xl w-full h-56" />
                     </figure>

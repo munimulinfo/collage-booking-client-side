@@ -11,17 +11,17 @@ const SearchCollage = () => {
     const handleSearch = () => {
         axiosSecure.get(`/searchcollage/${searchText}`)
             .then(data => {
-                setSearchCollage(data?.data.slice(0,1));
+                setSearchCollage(data?.data.slice(0, 1));
             })
     };
     return (
-        <div className='flex flex-col justify-center items-center mb-24'>
-            <h1 className="text-center text-3xl font-bold mt-12">Search Your Favorite Collage</h1>
+        <div className='flex flex-col justify-center items-center'>
+            <h1 className="text-center text-[20px] lg:text-3xl font-bold mt-12">Search Your Favorite Collage</h1>
             <div className="form-control mt-12">
                 <div className="input-group">
                     <input onChange={(e) => setSearchText(e.target.value)} type="text" placeholder="Search…" className="input input-bordered lg:w-[500px]" />
                     <button onClick={handleSearch} className="btn btn-square w-20 bg-info">
-                        <FaSearch className='text-3xl text-red-200'></FaSearch>
+                        <FaSearch className='text-3xl text-white'></FaSearch>
                     </button>
                 </div>
             </div>

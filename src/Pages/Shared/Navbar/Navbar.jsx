@@ -16,7 +16,7 @@ const Navbar = () => {
             .catch(error => console.log(error));
     }
     return (
-        <div className="navbar bg-purple-200 px-12">
+        <div className="navbar bg-purple-200 lg:px-12">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -46,7 +46,7 @@ const Navbar = () => {
                         </li>
                     </ul>
                 </div>
-                <h1 className="normal-case text-xl">MH-Collage</h1>
+                <h1 className="normal-case text-xl">EduReserve</h1>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal gap-8">
@@ -73,7 +73,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                {user ? <button onClick={handleLogOut} className="btn btn-md btn-info">Logout</button> : <Link to='/signin'><button className="btn btn-md btn-info">Sign In</button></Link>}
+                {user ? <button onClick={handleLogOut} className="btn lg:btn-md btn-xs btn-info">Logout</button> : <Link to='/signin'><button className="btn btn-md btn-info">Sign In</button></Link>}
                 {user && <Link to='/userprofiel'><img className='w-14 h-14 ml-4 rounded-full' src={user?.photoURL} alt="user" /></Link>}
 
             </div>
